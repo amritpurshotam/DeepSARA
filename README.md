@@ -1,6 +1,15 @@
 # DeepSARA
 DeepSARA is a project that applies Deep Learning to Southern African Rock Art (SARA).
 
+## Getting started
+
+### Labeler
+To start the labelling service, run the following command
+```
+docker-compose up labeler
+```
+And then the web front-end will be accessible at `http://localhost:8080`
+
 ## Goals
 
  - Annotate and curate the large dataset of images (labels and bounding boxes).
