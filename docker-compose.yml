@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  labeler:
+    image: heartexlabs/label-studio:1.0.0
+    volumes:
+      - ./data:/root/.local/share/label-studio
+    ports:
+      - 8080:8080
